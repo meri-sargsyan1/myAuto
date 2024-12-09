@@ -1,0 +1,29 @@
+@media screen  and (max-width:968px){
+    .lengages{
+        display: none !important;
+    }
+}
+
+@media screen  and (max-width:786px){
+    .content-flex{
+        flex-wrap: wrap;
+        padding-inline: 20px;
+    }
+    .logo{
+        order: 0;
+    }
+    .content-form{
+        order: 4;
+        margin-inline: 0;
+    }
+    .login{
+        order: 3;
+    }
+    .logo a img{
+        width: 101px;
+        height: 41px;
+    }
+    .content-form img{
+        left: 88%;
+    }
+}
