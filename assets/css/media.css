@@ -1,8 +1,33 @@
+@media screen  and (max-width:1150px){
+    .pageImg {
+        max-width: 1150px;
+        width: 100%;
+        min-height: 322px;
+    }
+    .zapchast{
+        max-width: 250px;
+        min-height: 58px;
+        padding: 85px;
+    }
+}
+
+
 @media screen  and (max-width:968px){
     .lengages{
         display: none !important;
     }
+    .pageImg {
+        max-width: 968px;
+        width: 100%;
+        min-height: 270px;
+    }
+    .zapchast{
+        max-width: 250px;
+        min-height: 58px;
+        padding: 85px;
+    }
 }
+
 
 @media screen  and (max-width:786px){
     .content-flex{
@@ -26,4 +51,133 @@
     .content-form img{
         left: 88%;
     }
+
+    .pageImg {
+        max-width: 786px;
+        width: 100%;
+        min-height: 219px;
+    }
+    .zapchast{
+        max-width: 200px;
+        min-height: 40px;
+        padding: 85px;
+    }
+   
+}
+
+@media screen  and (max-width:650px){
+    .pageImg {
+        max-width: 650px;
+        width: 100%;
+        min-height: 181px;
+    }
+    .zapchast{
+        max-width: 100px;
+        min-height: 40px;
+        padding: 40px;
+      
+    }
+
+}
+@media screen  and (max-width:530px){
+    .pageImg {
+        max-width: 530px;
+        width: 100%;
+        min-height: 293px;
+        background: black;
+        background-image: url(../img/car.svg);
+        background-size: 100% 100%;
+       
+    }
+    .zapchast{
+        max-width: 200px;
+        min-height: 40px;
+        padding: 40px;
+    }
+
+}
+@media screen and(max-width:490px) {
+    .pageImg {
+        max-width: 490px;
+        width: 100%;
+        min-height: 244px;
+        background-image: url(../img/car2.svg) !important;
+    }
+    .zapchast{
+        max-width: 200px;
+        width: 100%;
+        min-height: 40px;
+        padding: 40px;
+        margin-left: 85px !important;
+       
+    }
+    .zapchast :nth-child(1) {
+        font-size: 24px !important;
+       font-weight: 400;
+       line-height: 35.06px;
+       text-align: center;
+       text-underline-position: from-font;
+       text-decoration-skip-ink: none;
+       color: #FFFFFF;
+   
+   }
+   
+   .zapchast :nth-child(2) {
+   
+       font-size: 24px !important;
+       font-weight: 700;
+       line-height: 35.06px;
+       text-align: center;
+       text-underline-position: from-font;
+       text-decoration-skip-ink: none;
+       color: #FF0000;
+      
+   
+   
+   }
+ 
+    
+}
+@media screen and(max-width:393px) {
+    .pageImg {
+        max-width: 393px;
+        width: 100%;
+        min-height: 244px;
+        background-image: url(../img/car2.svg) ;
+    }
+    .zapchast{
+        width: 232px;
+        height: 35px;
+        /* padding: 25px; */
+        left: 63px;
+       
+        
+        
+    }
+    .zapchast :nth-child(1) {
+         font-size: 24px !important;
+        font-weight: 400;
+        line-height: 35.06px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FFFFFF;
+    
+    }
+    
+    .zapchast :nth-child(2) {
+    
+        font-size: 24px !important;
+        font-weight: 700;
+        line-height: 35.06px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #FF0000;
+       
+    
+    
+    }
+  
+    
 }
